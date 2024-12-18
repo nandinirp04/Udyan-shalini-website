@@ -1,0 +1,202 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+  .bgimage{
+
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url('ii.jpg');
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+   .navbar{
+     height: 80px;
+     width: 100%;
+     background: rgba(0,0,0,0.4);
+}
+
+    .h1 {
+      width: 140px;
+      height: 55px;
+      padding: 20px 100px;
+      margin-top: none;
+      margin-left: -35px;
+
+}
+    .navbar ul{
+      float: right;
+      margin-top: 15px;
+}
+      .navbar ul li{
+         list-style: none;
+         margin: 0 8px;
+         display: inline-block;
+         line-height: 80px;
+}
+    .navbar ul li a{
+       text-decoration: none;
+        color: white;
+       font-size: 20px;
+       padding: 6px 13px;
+       font-family: 'Roboto',sans-serif;
+       transition: .4s;
+}
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+       background: red;
+       border-radius: 2px;
+}
+    .bgimage .center{
+       position: absolute;
+       top: 50%;
+       left: 70%;
+       transform: translate(-50%,-50%);
+       font-size: 230%;
+       user-select: none; 
+}
+    .center h1{  
+       color: white;
+       font-size: 70px;
+       font-weight: bold;
+       width: 80px;
+       text-align: center;
+       margin-left: 68px; 
+  }
+    .center .buttons{
+       margin: 30px 20px;
+       margin-left: 75px;
+
+    }
+    .buttons button{    
+       height: 40px;
+       width: 115px;
+       font-size: 18px;
+       font-weight: bold;
+       color: black;
+       background: skyblue;
+       border: 1px solid black;
+       outline: none;
+       cursor: pointer;
+       border-radius: 10px;
+       transition: .5s;
+
+}
+    .buttons .btn{
+        margin-left: none;
+ }
+    .buttons button:hover{
+        background: salmon;
+  }
+
+/*--------------course--------------------*/
+
+   .course{
+        width:80%;
+        margin: auto;
+text-align:lef;
+        padding-top: 80px;
+
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+color: darkblue;
+    margin-right: -80px;
+    margin-left: -40px;
+
+
+}
+
+p{
+color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:23px;
+    padding: 28px;
+    margin-left: -20px;
+    text-indent: 65px;
+
+
+}
+   .row{
+       margin-top: 4%;
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .course-col{
+       flex-basis:50%;
+       background: lavender;
+       border-bottom: 5%;
+       padding: -30px;
+       box-sizing: border-box;
+       border-radius:10px;
+       margin-right: 35px;
+       margin-bottom: 5%;
+
+}
+h4{
+    text-align: center;
+    font-weight:700;
+    margin: 0px 0px0px0px;
+    padding-right: 25px;
+    background-color:#04bacf;
+color: white;
+}
+p{
+    text-align: left;
+    font-weight: 500;
+    margin-right: 7px;
+    padding-right: 8px;
+
+}
+
+   .button {
+  
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+   font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15PX;
+
+}
+
+.button1 {
+    background-color: green;
+    margin-left: 450px;
+    }
+
+
+
+/*------------icon bar-----------*/
+
+   .iconbar{
+       margin-top: 1%;
+       margin-bottom: 4%;
+}
+    .icon{
+       width: 97%;
+color: #f44336;
+       cursor: pointer;
+text-align:right;
+       font-size: 35px;
+       margin-top: -25px;
+}
+h3{
+    text-align: left;
+color:#f44336; ;
+    padding-top:-55px;
+    font-size: 25px;
+}
+

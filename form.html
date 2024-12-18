@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+   <meta charset="utf-8">
+   <title></title>
+   <link rel="stylesheet" type="text/css" href="form.css">
+   <script src="js/form.js"></script>
+
+ </head>
+ <body>
+  <div id="footer">
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header well text-center theme-background-blue">
+                    
+                    <h2>You’re Donating:</h2>
+                    <h1 style="font-size: 3.3em; margin-top: -18px;">$<span id="price"></span></h1>
+                    <em>Thank you!</em>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">  
+                      <section class="col-md-12">
+                        <form>
+                          <fieldset class="col-md-6">
+                            <legend>
+                              Your personal info
+                            </legend>
+                          
+                            <label>Your Name</label>
+                            <input type="string" class="form-control">
+                            <label>Your email</label>
+                           
+                            <input type="email" class="form-control">
+                           
+                           <label>Address</label>
+                            <input type="email" class="form-control">
+                            <label>Address</label>
+                            <label>City, State, Zip Code</label>
+                            <input type="email" class="form-control">
+                            
+                          </fieldset>
+                          <fieldset class="col-md-6">
+                            <legend>
+                              Credit Card Information
+                            </legend>
+                            <label for="card-number">Credit Card Number</label>
+                            <input placeholder="1234 5678 9012 3456" pattern="[0-9]*" type="text" class="form-control card-number" id="card-number">
+                            <label for="card-number">Amount</label>
+                            <input placeholder="Rs." pattern="[0-9]*" type="text" class="form-control card-number" id="card-number">
+                            <label for="card-number">Expiration Date</label>
+                            <input placeholder="MM/YY" pattern="[0-9]*" type="text" class="form-control card-expiration" id="card-expiration">
+                            <label for="card-number">CVV Number</label>
+                            <input placeholder="CVV" pattern="[0-9]*" type="text" class="form-control card-cvv" id="card-cvv">
+                            <label for="card-number">Billing Zip Code</label>
+                            <input placeholder="ZIP" pattern="[0-9]*" type="text" class="form-control card-zip" id="card-zip">
+                          </fieldset>
+                        </form>
+                      </section>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="file:///C:/Users/user/Desktop/bharti/donation.html">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">BACK</button></a>
+                    <button  style="font-size:20px" type="button" class="btn-green" data-impact="Thank you!">Submit</button>
+                     
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+          </div>
+        </div><!--/.donate-bar-->
+      </div><!-- /.col-md-12 -->
+    </div>
+    </body>
+    </html>

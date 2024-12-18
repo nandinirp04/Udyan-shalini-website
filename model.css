@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.abc {
+	background-image: url(v6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 100vh;
+    background-position: center;
+}
+
+
+.navbar{
+     height: 80px;
+     width: 100%;
+     background: rgba(0,0,0,0.4);
+}
+
+.logo{
+      width: 140px;
+      height: 55px;
+      padding: 20px 100px;
+      margin-top: none;
+      margin-left: -35px;
+      }
+.navbar ul{
+      float: right;
+      margin-top: 15px;
+}
+      .navbar ul li{
+         list-style: none;
+         margin: 0 8px;
+         display: inline-block;
+         line-height: 80px;
+}
+    .navbar ul li a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       padding: 6px 13px;
+       font-family: 'Roboto',sans-serif;
+       transition: .4s;
+}
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+       background: red;
+       border-radius: 2px;
+} 
+.xyz h2{
+    
+
+     text-align: center;
+     color: coral;
+     padding-right: 12px;
+     font-size: 35px;
+     margin-top: -20px;
+     padding-top: 15px;
+
+}
+ .xyz h1{
+       text-align:center ;
+       position: relative;
+       font-size: 45px;
+}
+#header{
+	background-color:orangered;
+	color: white;
+	text-align: center;
+	padding: 5px;
+
+
+}   
+#header h4{
+   text-align: left;
+   color: white;
+   padding-left:50px;
+   padd
+
+}
+h3{
+	padding-top: 20px;
+	color: black;
+	text-align: center;
+	font-family: font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+
+}
+p{
+	padding-top: 30px;
+	overflow-wrap: break-word;
+	font-size: 15px;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:23px;
+    padding: 28px;
+    
+
+
+}
+   .row{
+       margin-top: 4%;
+       display: flex;
+       transform: translate(10px);
+       background: transparent;
+    
+      
+   }
+
+   .course-col{
+       flex-basis:50%;
+       
+       padding: -30px;
+       margin-right: 35px;
+       margin-bottom: 5%;
+       background: transparent;
+
+}
+h4{
+    text-align: center;
+    font-weight:800;
+    margin: 0px 0px0px0px;
+    padding-right: 25px;
+    color: white;
+    font-size: 150%;
+}
+p{
+    color: white;
+    text-align: left;
+    font-weight: 500;
+    margin-right: 7px;
+    padding-right: 8px;
+
+}
+.buttons{
+   
+       size: 40px;
+       height: 40px;
+       width: 125px;
+       color: white;
+       background:black  ;
+       border: 1px solid black;
+       font-size: 20px;
+       cursor: pointer;
+       border-radius: 10px;
+       transition: .5s;
+       margin-left: 70px;
+
+}
+
+#screen-header{
+background-size: cover;
+width: 100%;
+padding-top: 20px;
+padding-left: -10px;
+padding-bottom: 20px;
+background-color:ivory;
+
+}

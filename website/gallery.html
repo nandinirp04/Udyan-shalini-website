@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: lavender;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 250px;
+  border-radius: 3px 0 0 3px;
+}
+  .prev {
+  left: 285px;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  
+  top: 0;
+
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: lavender;
+  padding: 2px 16px;
+  color: white;
+  padding-top: 40px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+  <div>
+  <nav class="navbar">
+    <img class="logo" src= "logo.jpg">
+
+<ul>
+<li><a href="index1.html">Home</a></li>
+<li><a class="active" href="#">Gallery</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="c.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+
+
+
+
+
+
+<div class="title">
+<h1>Gallery</h1>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="p5.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="p13.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="p6.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="p7.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="p8.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="p16.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="p10.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="p12.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="p3.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="p14.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="p17.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="8.jpg" width="60%"  height="550px" style="margin-left: 280px;">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="p5.jpg" width="100%" height= "160px" onclick="currentSlide(1)">
+    </div>
+    
+     <div class="column">
+      <img class="demo cursor" src="p13.jpg" width="100%" height="160px" onclick="currentSlide(1)">
+    </div>
+     
+      
+    
+     <div class="column">
+      <img class="demo cursor" src="p6.jpg" width="100%" height= "160px" onclick="currentSlide(1)">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="p7.jpg" width="100%" height="160px" onclick="currentSlide(1)">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="p8.jpg" width="100%" height="160px" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="p10.jpg" width="100%" height="160px" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="p16.jpg" width="100%"  height="160px" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="p12.jpg" width="100%" height="160px" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="p3.jpg" width="100%" height= "160px" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="p14.jpg" width="100%"  height="160px" onclick="currentSlide(6)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="p17.jpg" width="100%" height="159px"  onclick="currentSlide(5)">
+    </div>   
+    <div class="column">
+      <img class="demo cursor" src="8.jpg" width="100%" height="160px"  onclick="currentSlide(5)">
+    </div>  
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<!-------------- icon bar------------------- -->
+
+<div class="iconbar">
+<h3>Udayanshalini fellowship programme</h3>
+<div class="icon">
+   <hr/>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+
+</div>
+
+
+
+    
+</body>
+</html>

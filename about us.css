@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+  .image{
+  	background-color: white;
+  	height: 100vh;
+    background-size: cover;
+    background-position: center;  
+}
+.navbar{
+     height: 80px;
+     width: 100%;
+     background: rgba(0,0,0,0.4);
+}
+.logo {
+      width: 140px;
+      height: 55px;
+      padding: -30px 100px;
+      margin-top: 10px;
+      margin-left: 20px;
+
+}
+    .navbar ul{
+      float: right;
+      margin-top: 15px;
+}
+     .navbar ul li{
+         list-style: none;
+         margin: 0 8px;
+         display: inline-block;
+         line-height: 80px;
+}
+    .navbar ul li a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       padding: 6px 13px;
+       font-family: 'Roboto',sans-serif;
+       transition: .4s;
+}
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+       background: red;
+       border-radius: 2px;
+
+       
+}
